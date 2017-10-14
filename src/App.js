@@ -21,7 +21,7 @@ class App extends Component {
             <dd>Simple. I listen how business is processing daily bases and I create software to automate the process.</dd>
             <dt>My Skills</dt>
             <dd>
-              Ruby on Rails, JavaScripts, Linux, Oracle, .NET(C#) etc.
+              Ruby on Rails, JavaScript, React, Linux, Oracle, etc.
             </dd>
           </dl>
 
