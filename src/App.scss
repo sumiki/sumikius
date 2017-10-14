@@ -1,0 +1,155 @@
+
+
+$develop_border_color: #F9F9F9;
+
+html,
+body {
+  background: none repeat scroll 0 0 #F9F9F9;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  min-height:100%;
+  padding:0;
+  margin:0;
+  height:100%;
+}
+
+div.clear{
+  claer: both;
+}
+
+div.container{
+  //border: 1px solid $develop_border_color;
+  min-height:100%;
+  width: 320px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  div.header{
+    height: 50px;
+    border: 1px solid $develop_border_color;
+    h1{
+      display: block;
+      float: left;
+      font-size: 20px;
+      margin-left: 25px;
+    }
+    ul.gnavi{
+      float: right;
+      margin-top: 20px;
+      margin-right: 40px;
+      li{
+        list-style: none;
+        float: left;
+        margin-left: 20px;
+      }
+    }
+  }
+  div.wrapper{
+    border: 1px solid $develop_border_color;
+    border: 1px solid #DFDFDF;
+    padding-bottom:60px;
+    background: #FFFFFF;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    div.contents{
+      padding: 10px 20px;
+
+      h2{
+        font-size: 18px;
+        line-height:18px;
+        border-bottom: 1px solid #AAAAAA;
+      }
+
+      dl{
+        dt{
+          font-size: 14px;;
+
+
+        }
+        dd{
+          font-size: 14px;;
+          margin-left: 0;
+          margin-bottom: 15px;
+        }
+      }
+
+      a#send_mail_button{
+        -moz-border-bottom-colors: none;
+        -moz-border-image: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        background-color: #0074CC;
+        background-image: -moz-linear-gradient(center top , #0088CC, #0055CC);
+        background-repeat: repeat-x;
+        border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+        border-style: solid;
+        border-width: 1px;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-block;
+        line-height: 18px;
+        margin-bottom: 0;
+        padding: 2px 5px;
+        text-align: center;
+        text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+        vertical-align: middle;
+        text-decoration: none;
+        margin-bottom: 3px;
+      }
+
+      a#send_mail_button:hover{
+        background-color: #0055CC;
+        background-image: none;
+      }
+
+      span#email{
+        margin-left: 5px;
+      }
+
+    }
+  }
+
+  div.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F9F9F9;
+
+
+    div.footer_inner{
+      margin-left: 5px;
+      margin-right: 5px;
+      border: 1px solid $develop_border_color;
+      border-top: 1px solid #DFDFDF;
+      padding-left: 5px;
+      padding-right: 5px;
+
+      ul{
+        float: left;
+        margin-top: 10px;
+        margin-left: 0;
+        padding: 0;
+        li{
+          list-style: none;
+        }
+      }
+
+      div.footer_logo{
+        float: right;
+        margin-top: 10px;
+        color: #DFDFDF;
+        font-size: 90%;
+      }
+    }
+
+
+  }
+
+}
