@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.scss';
 
 class App extends Component {
@@ -36,7 +35,7 @@ class App extends Component {
         <div className="footer">
           <div className="footer_inner">
             <ul>
-              <li><a href="http://www.linkedin.com/pub/sumiki-ohsawa/13/796/252" target="_blank"><img src="/linkedin.png" width="20px;" /></a></li>
+              <li><a href="http://www.linkedin.com/pub/sumiki-ohsawa/13/796/252" target="_blank"><img src="/static/linkedin.png" width="20px;" /></a></li>
             </ul>
             <div className="footer_logo">Sumiki Ohsawa Consultant</div>
           </div>
