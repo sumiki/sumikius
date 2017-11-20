@@ -35,8 +35,9 @@ class App extends Component {
 
         <div className="footer">
           <div className="footer_inner">
-            <ul>
+            <ul class="links">
               <li><a href="http://www.linkedin.com/pub/sumiki-ohsawa/13/796/252" target="_blank"><img src="/linkedin.png" width="20px;" /></a></li>
+              <li><a href="https://github.com/sumiki" target="_blank"><img src="/github.png" width="20px;" /></a></li>
             </ul>
             <div className="footer_logo">Sumiki Ohsawa Consultant</div>
           </div>
